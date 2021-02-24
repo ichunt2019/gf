@@ -2,27 +2,27 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gi18n
 
 import (
 	"errors"
 	"fmt"
-	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gf/internal/intlog"
 	"strings"
 	"sync"
 
-	"github.com/ichunt2019/gcfg/os/gfsnotify"
+	"github.com/ichunt2019/gf/os/gfsnotify"
 
-	"github.com/ichunt2019/gcfg/text/gregex"
+	"github.com/ichunt2019/gf/text/gregex"
 
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/util/gconv"
 
-	"github.com/ichunt2019/gcfg/encoding/gjson"
+	"github.com/ichunt2019/gf/encoding/gjson"
 
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/os/gres"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/os/gres"
 )
 
 // Manager, it is concurrent safe, supporting hot reload.

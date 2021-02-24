@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gutil_test
 
 import (
-	"github.com/ichunt2019/gcfg/frame/g"
+	"github.com/ichunt2019/gf/frame/g"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/test/gtest"
-	"github.com/ichunt2019/gcfg/util/gutil"
+	"github.com/ichunt2019/gf/test/gtest"
+	"github.com/ichunt2019/gf/util/gutil"
 )
 
 func Test_MapCopy(t *testing.T) {

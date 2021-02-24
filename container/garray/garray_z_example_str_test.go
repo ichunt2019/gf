@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package garray_test
 
 import (
 	"fmt"
-	"github.com/ichunt2019/gcfg/container/garray"
-	"github.com/ichunt2019/gcfg/frame/g"
+	"github.com/ichunt2019/gf/container/garray"
+	"github.com/ichunt2019/gf/frame/g"
 )
 
 func ExampleStrArray_Walk() {

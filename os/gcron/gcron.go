@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gcron implements a cron pattern parser and job runner.
 package gcron
@@ -11,7 +11,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/ichunt2019/gcfg/os/gtimer"
+	"github.com/ichunt2019/gf/os/gtimer"
 )
 
 const (

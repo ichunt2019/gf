@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gconv implements powerful and convenient converting functionality for any types of variables.
 //
@@ -11,14 +11,14 @@ package gconv
 
 import (
 	"fmt"
-	"github.com/ichunt2019/gcfg/internal/json"
-	"github.com/ichunt2019/gcfg/os/gtime"
+	"github.com/ichunt2019/gf/internal/json"
+	"github.com/ichunt2019/gf/os/gtime"
 	"reflect"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/ichunt2019/gcfg/encoding/gbinary"
+	"github.com/ichunt2019/gf/encoding/gbinary"
 )
 
 type (

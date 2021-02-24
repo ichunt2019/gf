@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gdes_test
 
@@ -10,8 +10,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/crypto/gdes"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/crypto/gdes"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 var (

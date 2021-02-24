@@ -7,7 +7,7 @@
 package gparser
 
 import (
-	"github.com/ichunt2019/gcfg/encoding/gjson"
+	"github.com/ichunt2019/gf/encoding/gjson"
 )
 
 // New creates a Parser object with any variable type of <data>, but <data> should be a map, struct or

@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package genv_test
 
 import (
-	"github.com/ichunt2019/gcfg/frame/g"
-	"github.com/ichunt2019/gcfg/os/gcmd"
+	"github.com/ichunt2019/gf/frame/g"
+	"github.com/ichunt2019/gf/os/gcmd"
 	"os"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/os/genv"
-	"github.com/ichunt2019/gcfg/os/gtime"
-	"github.com/ichunt2019/gcfg/test/gtest"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/os/genv"
+	"github.com/ichunt2019/gf/os/gtime"
+	"github.com/ichunt2019/gf/test/gtest"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 func Test_GEnv_All(t *testing.T) {

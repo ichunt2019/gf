@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gtime provides functionality for measuring and displaying time.
 //
@@ -11,15 +11,15 @@ package gtime
 
 import (
 	"fmt"
-	"github.com/ichunt2019/gcfg/errors/gerror"
-	"github.com/ichunt2019/gcfg/internal/utils"
+	"github.com/ichunt2019/gf/errors/gerror"
+	"github.com/ichunt2019/gf/internal/utils"
 	"os"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/ichunt2019/gcfg/text/gregex"
+	"github.com/ichunt2019/gf/text/gregex"
 )
 
 const (

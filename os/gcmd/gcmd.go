@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 //
 
 // Package gcmd provides console operations, like options/arguments reading and command running.
 package gcmd
 
 import (
-	"github.com/ichunt2019/gcfg/container/gvar"
-	"github.com/ichunt2019/gcfg/internal/command"
+	"github.com/ichunt2019/gf/container/gvar"
+	"github.com/ichunt2019/gf/internal/command"
 	"os"
 	"strings"
 )

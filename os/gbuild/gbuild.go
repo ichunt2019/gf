@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gbuild manages the build-in variables from "gf build".
 package gbuild
 
 import (
-	"github.com/ichunt2019/gcfg"
-	"github.com/ichunt2019/gcfg/container/gvar"
-	"github.com/ichunt2019/gcfg/encoding/gbase64"
-	"github.com/ichunt2019/gcfg/internal/intlog"
-	"github.com/ichunt2019/gcfg/internal/json"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf"
+	"github.com/ichunt2019/gf/container/gvar"
+	"github.com/ichunt2019/gf/encoding/gbase64"
+	"github.com/ichunt2019/gf/internal/intlog"
+	"github.com/ichunt2019/gf/internal/json"
+	"github.com/ichunt2019/gf/util/gconv"
 	"runtime"
 )
 

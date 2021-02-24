@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package utils
 
 import (
-	"github.com/ichunt2019/gcfg/internal/command"
+	"github.com/ichunt2019/gf/internal/command"
 )
 
 const (
 	debugKey                 = "gf.debug"             // Debug key for checking if in debug mode.
-	StackFilterKeyForGoFrame = "/github.com/ichunt2019/gcfg/" // Stack filtering key for all GoFrame module paths.
+	StackFilterKeyForGoFrame = "/github.com/ichunt2019/gf/" // Stack filtering key for all GoFrame module paths.
 )
 
 var (

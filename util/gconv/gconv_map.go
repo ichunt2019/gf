@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gconv
 
 import (
-	"github.com/ichunt2019/gcfg/errors/gerror"
-	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gf/errors/gerror"
+	"github.com/ichunt2019/gf/internal/json"
 	"reflect"
 	"strings"
 
-	"github.com/ichunt2019/gcfg/internal/empty"
-	"github.com/ichunt2019/gcfg/internal/utils"
+	"github.com/ichunt2019/gf/internal/empty"
+	"github.com/ichunt2019/gf/internal/utils"
 )
 
 // Map converts any variable <value> to map[string]interface{}. If the parameter <value> is not a

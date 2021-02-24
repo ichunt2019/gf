@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gsession
 
 import (
-	"github.com/ichunt2019/gcfg/container/gmap"
-	"github.com/ichunt2019/gcfg/database/gredis"
-	"github.com/ichunt2019/gcfg/internal/intlog"
-	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gf/container/gmap"
+	"github.com/ichunt2019/gf/database/gredis"
+	"github.com/ichunt2019/gf/internal/intlog"
+	"github.com/ichunt2019/gf/internal/json"
 	"time"
 
-	"github.com/ichunt2019/gcfg/os/gtimer"
+	"github.com/ichunt2019/gf/os/gtimer"
 )
 
 // StorageRedis implements the Session Storage interface with redis.

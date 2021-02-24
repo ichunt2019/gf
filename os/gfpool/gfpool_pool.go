@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gfpool
 
@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/gpool"
-	"github.com/ichunt2019/gcfg/container/gtype"
-	"github.com/ichunt2019/gcfg/os/gfsnotify"
+	"github.com/ichunt2019/gf/container/gpool"
+	"github.com/ichunt2019/gf/container/gtype"
+	"github.com/ichunt2019/gf/os/gfsnotify"
 )
 
 // New creates and returns a file pointer pool with given file path, flag and opening permission.

@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gmap_test
 
 import (
-	"github.com/ichunt2019/gcfg/util/gutil"
+	"github.com/ichunt2019/gf/util/gutil"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/container/gmap"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/container/gmap"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func getValue() interface{} {

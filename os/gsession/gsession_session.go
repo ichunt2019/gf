@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gsession
 
 import (
 	"errors"
-	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gf/internal/intlog"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/gmap"
-	"github.com/ichunt2019/gcfg/container/gvar"
-	"github.com/ichunt2019/gcfg/os/gtime"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/container/gmap"
+	"github.com/ichunt2019/gf/container/gvar"
+	"github.com/ichunt2019/gf/os/gtime"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 // Session struct for storing single session data,

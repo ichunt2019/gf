@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package genv provides operations for environment variables of system.
 package genv
 
 import (
-	"github.com/ichunt2019/gcfg/container/gvar"
-	"github.com/ichunt2019/gcfg/os/gcmd"
+	"github.com/ichunt2019/gf/container/gvar"
+	"github.com/ichunt2019/gf/os/gcmd"
 	"os"
 	"strings"
 )

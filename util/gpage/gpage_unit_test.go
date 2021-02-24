@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // go test *.go -bench=".*"
 
 package gpage_test
 
 import (
-	"github.com/ichunt2019/gcfg/util/gpage"
+	"github.com/ichunt2019/gf/util/gpage"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func Test_New(t *testing.T) {

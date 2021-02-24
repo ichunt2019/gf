@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package glog
 
@@ -10,23 +10,23 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/ichunt2019/gcfg/container/gtype"
-	"github.com/ichunt2019/gcfg/internal/intlog"
-	"github.com/ichunt2019/gcfg/os/gfpool"
-	"github.com/ichunt2019/gcfg/os/gmlock"
-	"github.com/ichunt2019/gcfg/os/gtimer"
+	"github.com/ichunt2019/gf/container/gtype"
+	"github.com/ichunt2019/gf/internal/intlog"
+	"github.com/ichunt2019/gf/os/gfpool"
+	"github.com/ichunt2019/gf/os/gmlock"
+	"github.com/ichunt2019/gf/os/gtimer"
 	"go.opentelemetry.io/otel/trace"
 	"io"
 	"os"
 	"strings"
 	"time"
 
-	"github.com/ichunt2019/gcfg/debug/gdebug"
+	"github.com/ichunt2019/gf/debug/gdebug"
 
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/os/gtime"
-	"github.com/ichunt2019/gcfg/text/gregex"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/os/gtime"
+	"github.com/ichunt2019/gf/text/gregex"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 // Logger is the struct for logging management.

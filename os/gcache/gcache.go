@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gcache provides kinds of cache management for process.
 // It default provides a concurrent-safe in-memory cache adapter for process.
@@ -10,7 +10,7 @@ package gcache
 
 import (
 	"context"
-	"github.com/ichunt2019/gcfg/container/gvar"
+	"github.com/ichunt2019/gf/container/gvar"
 	"time"
 )
 

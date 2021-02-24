@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gfile_test
 
 import (
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/util/gconv"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func Test_Size(t *testing.T) {

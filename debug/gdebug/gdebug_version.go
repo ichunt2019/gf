@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gdebug
 
 import (
-	"github.com/ichunt2019/gcfg/crypto/gmd5"
-	"github.com/ichunt2019/gcfg/encoding/ghash"
+	"github.com/ichunt2019/gf/crypto/gmd5"
+	"github.com/ichunt2019/gf/encoding/ghash"
 	"io/ioutil"
 	"strconv"
 )

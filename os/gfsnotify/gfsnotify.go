@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gfsnotify provides a platform-independent interface for file system notifications.
 package gfsnotify
@@ -10,17 +10,17 @@ package gfsnotify
 import (
 	"errors"
 	"fmt"
-	"github.com/ichunt2019/gcfg/container/gset"
-	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gf/container/gset"
+	"github.com/ichunt2019/gf/internal/intlog"
 	"sync"
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/ichunt2019/gcfg/container/glist"
-	"github.com/ichunt2019/gcfg/container/gmap"
-	"github.com/ichunt2019/gcfg/container/gqueue"
-	"github.com/ichunt2019/gcfg/container/gtype"
-	"github.com/ichunt2019/gcfg/os/gcache"
+	"github.com/ichunt2019/gf/container/glist"
+	"github.com/ichunt2019/gf/container/gmap"
+	"github.com/ichunt2019/gf/container/gqueue"
+	"github.com/ichunt2019/gf/container/gtype"
+	"github.com/ichunt2019/gf/os/gcache"
 )
 
 // Watcher is the monitor for file changes.

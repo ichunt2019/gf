@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // go test *.go -bench=".*" -benchmem
 
@@ -10,16 +10,16 @@ package gcache_test
 
 import (
 	"context"
-	"github.com/ichunt2019/gcfg/util/guid"
+	"github.com/ichunt2019/gf/util/guid"
 	"math"
 	"testing"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/gset"
-	"github.com/ichunt2019/gcfg/frame/g"
-	"github.com/ichunt2019/gcfg/os/gcache"
-	"github.com/ichunt2019/gcfg/os/grpool"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/container/gset"
+	"github.com/ichunt2019/gf/frame/g"
+	"github.com/ichunt2019/gf/os/gcache"
+	"github.com/ichunt2019/gf/os/grpool"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func TestCache_GCache_Set(t *testing.T) {

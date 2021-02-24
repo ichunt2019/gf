@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gspath implements file index and search for folders.
 //
@@ -14,15 +14,15 @@ package gspath
 import (
 	"errors"
 	"fmt"
-	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gf/internal/intlog"
 	"os"
 	"sort"
 	"strings"
 
-	"github.com/ichunt2019/gcfg/container/garray"
-	"github.com/ichunt2019/gcfg/container/gmap"
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/text/gstr"
+	"github.com/ichunt2019/gf/container/garray"
+	"github.com/ichunt2019/gf/container/gmap"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/text/gstr"
 )
 
 // SPath manages the path searching feature.

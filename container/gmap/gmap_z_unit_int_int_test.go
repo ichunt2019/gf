@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gmap_test
 
 import (
-	"github.com/ichunt2019/gcfg/container/garray"
-	"github.com/ichunt2019/gcfg/frame/g"
-	"github.com/ichunt2019/gcfg/internal/json"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/container/garray"
+	"github.com/ichunt2019/gf/frame/g"
+	"github.com/ichunt2019/gf/internal/json"
+	"github.com/ichunt2019/gf/util/gconv"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/container/gmap"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/container/gmap"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func getInt() int {

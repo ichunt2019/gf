@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gmutex implements graceful concurrent-safe mutex with more rich features.
 package gmutex
@@ -11,7 +11,7 @@ import (
 	"math"
 	"runtime"
 
-	"github.com/ichunt2019/gcfg/container/gtype"
+	"github.com/ichunt2019/gf/container/gtype"
 )
 
 // The high level Mutex, which implements more rich features for mutex.

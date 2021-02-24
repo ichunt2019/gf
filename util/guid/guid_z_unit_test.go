@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // go test *.go -bench=".*"
 
 package guid_test
 
 import (
-	"github.com/ichunt2019/gcfg/container/gset"
-	"github.com/ichunt2019/gcfg/util/guid"
+	"github.com/ichunt2019/gf/container/gset"
+	"github.com/ichunt2019/gf/util/guid"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func Test_S(t *testing.T) {

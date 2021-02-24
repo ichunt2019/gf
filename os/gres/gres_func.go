@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gres
 
@@ -11,19 +11,19 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/ichunt2019/gcfg/encoding/gbase64"
-	"github.com/ichunt2019/gcfg/encoding/gcompress"
-	"github.com/ichunt2019/gcfg/text/gstr"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/encoding/gbase64"
+	"github.com/ichunt2019/gf/encoding/gcompress"
+	"github.com/ichunt2019/gf/text/gstr"
+	"github.com/ichunt2019/gf/util/gconv"
 
-	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gf/os/gfile"
 )
 
 const (
 	packedGoSouceTemplate = `
 package %s
 
-import "github.com/ichunt2019/gcfg/os/gres"
+import "github.com/ichunt2019/gf/os/gres"
 
 func init() {
 	if err := gres.Add("%s"); err != nil {

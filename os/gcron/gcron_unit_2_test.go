@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gcron_test
 
 import (
-	"github.com/ichunt2019/gcfg/frame/g"
+	"github.com/ichunt2019/gf/frame/g"
 	"testing"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/garray"
-	"github.com/ichunt2019/gcfg/os/gcron"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/container/garray"
+	"github.com/ichunt2019/gf/os/gcron"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func TestCron_Entry_Operations(t *testing.T) {

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gpool provides object-reusable concurrent-safe pool.
 package gpool
@@ -11,10 +11,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/glist"
-	"github.com/ichunt2019/gcfg/container/gtype"
-	"github.com/ichunt2019/gcfg/os/gtime"
-	"github.com/ichunt2019/gcfg/os/gtimer"
+	"github.com/ichunt2019/gf/container/glist"
+	"github.com/ichunt2019/gf/container/gtype"
+	"github.com/ichunt2019/gf/os/gtime"
+	"github.com/ichunt2019/gf/os/gtimer"
 )
 
 // Pool is an Object-Reusable Pool.

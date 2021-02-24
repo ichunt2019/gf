@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gfile provides easy-to-use operations for file system.
 package gfile
 
 import (
-	"github.com/ichunt2019/gcfg/text/gstr"
+	"github.com/ichunt2019/gf/text/gstr"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strings"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/gtype"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/container/gtype"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 var (

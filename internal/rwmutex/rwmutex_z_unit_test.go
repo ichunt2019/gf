@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package rwmutex_test
 
@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/garray"
-	"github.com/ichunt2019/gcfg/internal/rwmutex"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/container/garray"
+	"github.com/ichunt2019/gf/internal/rwmutex"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func TestRwmutexIsSafe(t *testing.T) {

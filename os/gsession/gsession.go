@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gsession implements manager and storage features for sessions.
 package gsession
 
 import (
 	"errors"
-	"github.com/ichunt2019/gcfg/util/guid"
+	"github.com/ichunt2019/gf/util/guid"
 )
 
 var (

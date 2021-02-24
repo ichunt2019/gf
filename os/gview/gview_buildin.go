@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gview
 
 import (
 	"fmt"
-	"github.com/ichunt2019/gcfg/internal/json"
-	"github.com/ichunt2019/gcfg/util/gutil"
+	"github.com/ichunt2019/gf/internal/json"
+	"github.com/ichunt2019/gf/util/gutil"
 	"strings"
 
-	"github.com/ichunt2019/gcfg/encoding/ghtml"
-	"github.com/ichunt2019/gcfg/encoding/gurl"
-	"github.com/ichunt2019/gcfg/os/gtime"
-	"github.com/ichunt2019/gcfg/text/gstr"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/encoding/ghtml"
+	"github.com/ichunt2019/gf/encoding/gurl"
+	"github.com/ichunt2019/gf/os/gtime"
+	"github.com/ichunt2019/gf/text/gstr"
+	"github.com/ichunt2019/gf/util/gconv"
 
 	htmltpl "html/template"
 )

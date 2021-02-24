@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gyaml provides accessing and converting for YAML content.
 package gyaml
 
 import (
-	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gf/internal/json"
 	"gopkg.in/yaml.v3"
 
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 func Encode(v interface{}) ([]byte, error) {

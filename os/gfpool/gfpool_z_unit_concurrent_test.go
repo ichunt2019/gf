@@ -1,11 +1,11 @@
 package gfpool_test
 
 import (
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/os/gfpool"
-	"github.com/ichunt2019/gcfg/os/gtime"
-	"github.com/ichunt2019/gcfg/test/gtest"
-	"github.com/ichunt2019/gcfg/text/gstr"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/os/gfpool"
+	"github.com/ichunt2019/gf/os/gtime"
+	"github.com/ichunt2019/gf/test/gtest"
+	"github.com/ichunt2019/gf/text/gstr"
 	"os"
 	"testing"
 )

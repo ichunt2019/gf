@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gutil
 
 import (
 	"strings"
 
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 // Comparator is a function that compare a and b, and returns the result as int.

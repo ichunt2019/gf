@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/os/gfpool"
-	"github.com/ichunt2019/gcfg/os/glog"
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/os/gfpool"
+	"github.com/ichunt2019/gf/os/glog"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 // TestOpen test open file cache

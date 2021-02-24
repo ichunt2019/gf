@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gcron_test
 
 import (
 	"testing"
 
-	"github.com/ichunt2019/gcfg/os/gcron"
+	"github.com/ichunt2019/gf/os/gcron"
 )
 
 func Benchmark_Add(b *testing.B) {

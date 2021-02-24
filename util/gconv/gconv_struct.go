@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gconv
 
 import (
 	"fmt"
-	"github.com/ichunt2019/gcfg/errors/gerror"
-	"github.com/ichunt2019/gcfg/internal/empty"
-	"github.com/ichunt2019/gcfg/internal/json"
-	"github.com/ichunt2019/gcfg/internal/structs"
+	"github.com/ichunt2019/gf/errors/gerror"
+	"github.com/ichunt2019/gf/internal/empty"
+	"github.com/ichunt2019/gf/internal/json"
+	"github.com/ichunt2019/gf/internal/structs"
 	"reflect"
 	"strings"
 
-	"github.com/ichunt2019/gcfg/internal/utils"
+	"github.com/ichunt2019/gf/internal/utils"
 )
 
 // Struct maps the params key-value pairs to the corresponding struct object's attributes.

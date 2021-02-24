@@ -2,22 +2,22 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // go test *.go
 
 package garray_test
 
 import (
-	"github.com/ichunt2019/gcfg/frame/g"
-	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gf/frame/g"
+	"github.com/ichunt2019/gf/internal/json"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/ichunt2019/gcfg/container/garray"
-	"github.com/ichunt2019/gcfg/test/gtest"
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/container/garray"
+	"github.com/ichunt2019/gf/test/gtest"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 func Test_StrArray_Basic(t *testing.T) {

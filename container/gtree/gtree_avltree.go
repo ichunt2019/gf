@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gtree
 
 import (
 	"fmt"
-	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gf/internal/json"
 
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/util/gconv"
 
-	"github.com/ichunt2019/gcfg/container/gvar"
-	"github.com/ichunt2019/gcfg/internal/rwmutex"
+	"github.com/ichunt2019/gf/container/gvar"
+	"github.com/ichunt2019/gf/internal/rwmutex"
 )
 
 // AVLTree holds elements of the AVL tree.

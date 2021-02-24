@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // go test *.go -bench=".*" -benchmem
 
 package gcmd_test
 
 import (
-	"github.com/ichunt2019/gcfg/os/genv"
+	"github.com/ichunt2019/gf/os/genv"
 	"testing"
 
-	"github.com/ichunt2019/gcfg/frame/g"
-	"github.com/ichunt2019/gcfg/os/gcmd"
+	"github.com/ichunt2019/gf/frame/g"
+	"github.com/ichunt2019/gf/os/gcmd"
 
-	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gf/test/gtest"
 )
 
 func Test_Default(t *testing.T) {

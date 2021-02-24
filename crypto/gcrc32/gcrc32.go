@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gcrc32 provides useful API for CRC32 encryption algorithms.
 package gcrc32
@@ -10,7 +10,7 @@ package gcrc32
 import (
 	"hash/crc32"
 
-	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gf/util/gconv"
 )
 
 // Encrypt encrypts any type of variable using CRC32 algorithms.

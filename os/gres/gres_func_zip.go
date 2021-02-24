@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gres
 
 import (
 	"archive/zip"
-	"github.com/ichunt2019/gcfg/internal/fileinfo"
-	"github.com/ichunt2019/gcfg/internal/intlog"
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/text/gregex"
+	"github.com/ichunt2019/gf/internal/fileinfo"
+	"github.com/ichunt2019/gf/internal/intlog"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/text/gregex"
 	"io"
 	"os"
 	"strings"

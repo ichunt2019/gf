@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 // Package gspath implements file index and search for folders.
 //
@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ichunt2019/gcfg/os/gfile"
-	"github.com/ichunt2019/gcfg/os/gfsnotify"
-	"github.com/ichunt2019/gcfg/text/gstr"
+	"github.com/ichunt2019/gf/os/gfile"
+	"github.com/ichunt2019/gf/os/gfsnotify"
+	"github.com/ichunt2019/gf/text/gstr"
 )
 
 // updateCacheByPath adds all files under <path> recursively.

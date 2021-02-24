@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/ichunt2019/gcfg.
+// You can obtain one at https://github.com/ichunt2019/gf.
 
 package gfsnotify
 
 import (
 	"errors"
 	"fmt"
-	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gf/internal/intlog"
 
-	"github.com/ichunt2019/gcfg/container/glist"
+	"github.com/ichunt2019/gf/container/glist"
 )
 
 // Add monitors <path> with callback function <callbackFunc> to the watcher.
