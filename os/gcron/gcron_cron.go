@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gcron
 
@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/ichunt2019/gcfg/container/garray"
+	"github.com/ichunt2019/gcfg/container/gmap"
+	"github.com/ichunt2019/gcfg/container/gtype"
+	"github.com/ichunt2019/gcfg/os/glog"
+	"github.com/ichunt2019/gcfg/os/gtimer"
 )
 
 type Cron struct {

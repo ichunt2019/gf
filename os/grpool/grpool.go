@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package grpool implements a goroutine reusable pool.
 package grpool
@@ -11,8 +11,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/ichunt2019/gcfg/container/glist"
+	"github.com/ichunt2019/gcfg/container/gtype"
 )
 
 // Goroutine Pool

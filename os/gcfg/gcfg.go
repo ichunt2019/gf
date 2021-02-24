@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package gcfg provides reading, caching and managing for configuration.
 package gcfg
@@ -11,19 +11,19 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gcfg/os/gcmd"
+	"github.com/ichunt2019/gcfg/text/gstr"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/ichunt2019/gcfg/os/gres"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gspath"
+	"github.com/ichunt2019/gcfg/container/garray"
+	"github.com/ichunt2019/gcfg/container/gmap"
+	"github.com/ichunt2019/gcfg/encoding/gjson"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/os/gfsnotify"
+	"github.com/ichunt2019/gcfg/os/glog"
+	"github.com/ichunt2019/gcfg/os/gspath"
 )
 
 const (

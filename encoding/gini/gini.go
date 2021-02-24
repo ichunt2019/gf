@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package gini provides accessing and converting for INI content.
 package gini
@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/ichunt2019/gcfg/internal/json"
 	"io"
 	"strings"
 )

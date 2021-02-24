@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gsession
 
 import (
 	"time"
 
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/database/gredis"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/container/gmap"
+	"github.com/ichunt2019/gcfg/database/gredis"
+	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gcfg/util/gconv"
 )
 
 // StorageRedisHashTable implements the Session Storage interface with redis hash table.

@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gtype_test
 
 import (
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gcfg/util/gconv"
 	"sync"
 	"testing"
 
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/ichunt2019/gcfg/container/gtype"
+	"github.com/ichunt2019/gcfg/test/gtest"
 )
 
 func Test_Byte(t *testing.T) {

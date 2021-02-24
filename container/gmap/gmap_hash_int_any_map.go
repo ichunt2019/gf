@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 //
 
 package gmap
 
 import (
-	"github.com/gogf/gf/internal/json"
+	"github.com/ichunt2019/gcfg/internal/json"
 
-	"github.com/gogf/gf/internal/empty"
+	"github.com/ichunt2019/gcfg/internal/empty"
 
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/container/gvar"
+	"github.com/ichunt2019/gcfg/internal/rwmutex"
+	"github.com/ichunt2019/gcfg/util/gconv"
 )
 
 type IntAnyMap struct {

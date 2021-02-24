@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package glog
 
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/ichunt2019/gcfg/errors/gerror"
+	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gcfg/util/gutil"
 	"io"
 	"strings"
 	"time"

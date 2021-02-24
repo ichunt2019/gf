@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gvalid_test
 
 import (
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/ichunt2019/gcfg/errors/gerror"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gcfg/util/gvalid"
 )
 
 func Test_CheckMap1(t *testing.T) {

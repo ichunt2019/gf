@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gres
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/ichunt2019/gcfg/internal/intlog"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/ichunt2019/gcfg/os/gtime"
 
-	"github.com/gogf/gf/container/gtree"
-	"github.com/gogf/gf/os/gfile"
+	"github.com/ichunt2019/gcfg/container/gtree"
+	"github.com/ichunt2019/gcfg/os/gfile"
 )
 
 type Resource struct {

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // go test *.go -bench=".*" -benchmem
 
@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gogf/gf/container/gmap"
+	"github.com/ichunt2019/gcfg/container/gmap"
 )
 
 var gm = gmap.NewIntIntMap(true)

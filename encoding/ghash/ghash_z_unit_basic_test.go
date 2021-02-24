@@ -3,8 +3,8 @@ package ghash_test
 import (
 	"testing"
 
-	"github.com/gogf/gf/encoding/ghash"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/ichunt2019/gcfg/encoding/ghash"
+	"github.com/ichunt2019/gcfg/test/gtest"
 )
 
 var (

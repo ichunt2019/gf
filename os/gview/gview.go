@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package gview implements a template engine based on text/template.
 //
@@ -11,14 +11,14 @@
 package gview
 
 import (
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/ichunt2019/gcfg/container/gmap"
+	"github.com/ichunt2019/gcfg/internal/intlog"
 
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
+	"github.com/ichunt2019/gcfg"
+	"github.com/ichunt2019/gcfg/container/garray"
+	"github.com/ichunt2019/gcfg/os/gcmd"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/os/glog"
 )
 
 // View object for template engine.

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gjson
 
@@ -12,16 +12,16 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gogf/gf/internal/json"
+	"github.com/ichunt2019/gcfg/internal/json"
 
-	"github.com/gogf/gf/encoding/gini"
-	"github.com/gogf/gf/encoding/gtoml"
-	"github.com/gogf/gf/encoding/gxml"
-	"github.com/gogf/gf/encoding/gyaml"
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/encoding/gini"
+	"github.com/ichunt2019/gcfg/encoding/gtoml"
+	"github.com/ichunt2019/gcfg/encoding/gxml"
+	"github.com/ichunt2019/gcfg/encoding/gyaml"
+	"github.com/ichunt2019/gcfg/internal/rwmutex"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/text/gregex"
+	"github.com/ichunt2019/gcfg/util/gconv"
 )
 
 // New creates a Json object with any variable type of <data>, but <data> should be a map

@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gconv_test
 
 import (
-	"github.com/gogf/gf/frame/g"
+	"github.com/ichunt2019/gcfg/frame/g"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/os/gtime"
+	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gcfg/util/gconv"
 )
 
 func Test_Time(t *testing.T) {

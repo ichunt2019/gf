@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // go test *.go -bench "Benchmark_Bytes_To_*" -benchmem
 
@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/gogf/gf/encoding/gbinary"
+	"github.com/ichunt2019/gcfg/encoding/gbinary"
 )
 
 var valueBytes = gbinary.Encode(123456789)

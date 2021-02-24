@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gvalid
 
 import (
 	"errors"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/net/gipv4"
-	"github.com/gogf/gf/net/gipv6"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gcfg/net/gipv4"
+	"github.com/ichunt2019/gcfg/net/gipv6"
+	"github.com/ichunt2019/gcfg/os/gtime"
+	"github.com/ichunt2019/gcfg/text/gregex"
+	"github.com/ichunt2019/gcfg/util/gconv"
 	"strconv"
 	"strings"
 )

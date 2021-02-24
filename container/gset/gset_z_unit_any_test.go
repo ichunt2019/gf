@@ -2,23 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // go test *.go
 
 package gset_test
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/frame/g"
+	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gcfg/util/gconv"
 	"strings"
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/ichunt2019/gcfg/container/garray"
+	"github.com/ichunt2019/gcfg/container/gset"
+	"github.com/ichunt2019/gcfg/test/gtest"
 
 	"testing"
 )

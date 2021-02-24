@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gview
 
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/i18n/gi18n"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gres"
-	"github.com/gogf/gf/os/gspath"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/ichunt2019/gcfg/i18n/gi18n"
+	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/os/glog"
+	"github.com/ichunt2019/gcfg/os/gres"
+	"github.com/ichunt2019/gcfg/os/gspath"
+	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gcfg/util/gutil"
 )
 
 // Config is the configuration object for template engine.

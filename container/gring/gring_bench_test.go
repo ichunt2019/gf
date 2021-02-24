@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // go test *.go -bench=".*"
 
@@ -11,7 +11,7 @@ package gring_test
 import (
 	"testing"
 
-	"github.com/gogf/gf/container/gring"
+	"github.com/ichunt2019/gcfg/container/gring"
 )
 
 var length = 10000

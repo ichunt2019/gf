@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gproc
 
 import (
 	"errors"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/net/gtcp"
+	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gcfg/net/gtcp"
 	"io"
 )
 

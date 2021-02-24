@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // go test *.go -bench=".*"
 
 package grand_test
 
 import (
-	"github.com/gogf/gf/text/gstr"
+	"github.com/ichunt2019/gcfg/text/gstr"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/grand"
+	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gcfg/util/grand"
 )
 
 func Test_Intn(t *testing.T) {

@@ -2,12 +2,12 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gfile
 
 import (
-	"github.com/gogf/gf/text/gstr"
+	"github.com/ichunt2019/gcfg/text/gstr"
 )
 
 // ReplaceFile replaces content for file <path>.

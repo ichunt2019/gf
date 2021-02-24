@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gconv_test
 
 import (
-	"github.com/gogf/gf/internal/json"
+	"github.com/ichunt2019/gcfg/internal/json"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/frame/g"
+	"github.com/ichunt2019/gcfg/os/gtime"
+	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gcfg/util/gconv"
 )
 
 func Test_Struct_Basic1(t *testing.T) {
@@ -460,7 +460,7 @@ func Test_StructEmbedded3(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/775
+// https://github.com/ichunt2019/gcfg/issues/775
 func Test_StructEmbedded4(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type Sub2 struct {

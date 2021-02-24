@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package gset provides kinds of concurrent-safe/unsafe sets.
 package gset
 
 import (
 	"bytes"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/internal/json"
+	"github.com/ichunt2019/gcfg/internal/rwmutex"
+	"github.com/ichunt2019/gcfg/text/gstr"
+	"github.com/ichunt2019/gcfg/util/gconv"
 )
 
 type Set struct {

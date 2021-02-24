@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package gmode provides release mode management for project.
 //
@@ -10,9 +10,9 @@
 package gmode
 
 import (
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gfile"
+	"github.com/ichunt2019/gcfg/debug/gdebug"
+	"github.com/ichunt2019/gcfg/os/gcmd"
+	"github.com/ichunt2019/gcfg/os/gfile"
 )
 
 const (

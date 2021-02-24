@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gvar_test
 
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/ichunt2019/gcfg/util/gconv"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/ichunt2019/gcfg/container/gvar"
+	"github.com/ichunt2019/gcfg/test/gtest"
 )
 
 func Test_Set(t *testing.T) {

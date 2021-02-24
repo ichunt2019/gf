@@ -2,24 +2,24 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 //
 
 package gcmd
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/ichunt2019/gcfg/internal/json"
 	"os"
 	"strings"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/ichunt2019/gcfg/text/gstr"
 
 	"errors"
 
-	"github.com/gogf/gf/container/gvar"
+	"github.com/ichunt2019/gcfg/container/gvar"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/ichunt2019/gcfg/text/gregex"
 )
 
 // Parser for arguments.

@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gcron
 
 import (
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/ichunt2019/gcfg/os/gtime"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/ichunt2019/gcfg/text/gregex"
 )
 
 // cronSchedule is the schedule for cron job.

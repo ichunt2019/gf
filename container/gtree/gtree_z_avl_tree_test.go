@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gtree_test
 
@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gogf/gf/container/gtree"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/ichunt2019/gcfg/container/gtree"
+	"github.com/ichunt2019/gcfg/container/gvar"
+	"github.com/ichunt2019/gcfg/test/gtest"
+	"github.com/ichunt2019/gcfg/util/gutil"
 )
 
 func Test_AVLTree_Basic(t *testing.T) {

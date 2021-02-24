@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package glog
 
 import (
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/encoding/gcompress"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gmlock"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/text/gregex"
+	"github.com/ichunt2019/gcfg/container/garray"
+	"github.com/ichunt2019/gcfg/encoding/gcompress"
+	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/os/gmlock"
+	"github.com/ichunt2019/gcfg/os/gtime"
+	"github.com/ichunt2019/gcfg/os/gtimer"
+	"github.com/ichunt2019/gcfg/text/gregex"
 	"time"
 )
 

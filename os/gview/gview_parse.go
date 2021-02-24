@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 package gview
 
@@ -10,25 +10,25 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/encoding/ghash"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/gmlock"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/ichunt2019/gcfg/encoding/ghash"
+	"github.com/ichunt2019/gcfg/errors/gerror"
+	"github.com/ichunt2019/gcfg/internal/intlog"
+	"github.com/ichunt2019/gcfg/os/gfsnotify"
+	"github.com/ichunt2019/gcfg/os/gmlock"
+	"github.com/ichunt2019/gcfg/text/gstr"
+	"github.com/ichunt2019/gcfg/util/gconv"
+	"github.com/ichunt2019/gcfg/util/gutil"
 	htmltpl "html/template"
 	"strconv"
 	"strings"
 	texttpl "text/template"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/ichunt2019/gcfg/os/gres"
 
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gspath"
+	"github.com/ichunt2019/gcfg/container/gmap"
+	"github.com/ichunt2019/gcfg/os/gfile"
+	"github.com/ichunt2019/gcfg/os/glog"
+	"github.com/ichunt2019/gcfg/os/gspath"
 )
 
 const (

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/ichunt2019/gcfg.
 
 // Package gring provides a concurrent-safe/unsafe ring(circular lists).
 package gring
@@ -10,8 +10,8 @@ package gring
 import (
 	"container/ring"
 
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/internal/rwmutex"
+	"github.com/ichunt2019/gcfg/container/gtype"
+	"github.com/ichunt2019/gcfg/internal/rwmutex"
 )
 
 // Ring is a struct of ring structure.
